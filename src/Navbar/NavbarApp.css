@@ -1,0 +1,102 @@
+.left-sidebar {
+  display: flex !important;
+}
+
+.navbar1 {
+  width: 200px;
+  height: 100%;
+  background-color: transparent;
+  position: fixed !important;
+  top: 0;
+  left: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  display: block;
+  color: black;
+  padding: 5px 0;
+  text-decoration: none;
+}
+
+
+
+
+/* -------------------------------Header--------------------------------------- */
+.nav-heading {
+  text-align: center;
+  margin: 20px;
+}
+
+.nav-heading h3,
+h2 {
+  margin: 0;
+}
+
+.nav-heading h2 {
+  margin-top: 20%;
+}
+
+/* -------------------------------Nav-Items--------------------------------------- */
+.nav-items {
+  margin-left: 30%;
+  margin-top: 100%;
+  font-size: 17px;
+  transition: 1s ;
+}
+
+/* -------------------------------Scroll--------------------------------------- */
+
+.mouse{
+  margin-bottom: 40%;
+  margin-left: 40%;
+  position: absolute;
+  bottom: 0;
+  font-size: 40px;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.2);
+    color: #8b44a0;
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+/* ==============================Media Query================================== */
+
+@media screen and (max-width: 600px) {
+  .left-sidebar {
+    display: flex;
+    position: relative;
+  }
+
+  .navbar {
+    width: 100%;
+    order: 1;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    display: block;
+    color: black;
+    padding: 5px 0;
+    text-decoration: none;
+  }
+
+}

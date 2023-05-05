@@ -1,0 +1,31 @@
+body {
+    background: rgb(127, 124, 175);
+    background: radial-gradient(circle, rgba(127, 124, 175, 1) 0%, rgba(238, 238, 255, 1) 100%);
+    background-attachment: fixed;
+    font-family: 'Manrope', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.loading h2{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 23%;
+}
+
+.loading p{
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 600px){
+    .loading h2{
+        margin-left: 15px;
+        margin-top: 80%;
+        font-size: 40px;
+    }
+    .loading p{
+        margin-right: 0;
+    }
+    
+}
